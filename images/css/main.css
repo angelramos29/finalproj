@@ -1,0 +1,182 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 150px 250px;
+    border-radius: 15px;
+    background-color: rgba(48, 48, 47, 0.562);
+}
+
+.text p {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.text b {
+    font-family: 'Risthiya Brush', sans-serif;
+    font-size: 100px;
+    color: rgb(255, 97, 97);
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.facts {
+    text-align: center;
+    color: black;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    background-color: rgb(255, 227, 232);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.facts h1 {
+    transition: transform 0.3s ease;
+}
+
+.facts h1:hover {
+    transform: translateY(-5px);
+}
+
+.food {
+    width: 200px;
+} 
+
+.facts h1 {
+    color: rgb(236, 37, 130);
+    font-family: 'Noto Sans Bengali', sans-serif;
+    padding-bottom: 30px;
+}
+
+.facts .f1 {
+    font-size: 15px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.facts .f2 {
+    font-size: 15px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    border-width: 50px;
+    transition: all 0.5s ease;
+}
+
+.yum {
+    width: 500px;
+    border-style: solid;
+    border-color: rgb(253, 82, 111);
+    margin: 60px 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.yum:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .text {
+        margin: 100px 200px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .text b {
+        font-size: 70px;
+    }
+
+    .food {
+        width: 190px;
+    } 
+
+    .facts h1 {
+        font-size: 25px;
+    }
+
+    .facts .f1 {
+        font-size: 13px;
+        margin-right: 250px;
+        margin-left: 250px;
+        margin-bottom: 15px;
+    }
+    .facts .f2 {
+        font-size: 13px;
+        margin-right: 250px;
+        margin-left: 250px;
+        margin-bottom: 15px;
+    }
+
+    .foods {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        border-width: 50px;
+    }
+
+    .yum {
+        width: 350px;
+        margin: 50px 10px;
+    }
+}
+
+@media (max-width: 412px) {
+    .text {
+        margin: 90px 190px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .text b {
+        font-size: 60px;
+    }
+
+    .food {
+        width: 180px;
+    } 
+
+    .facts h1 {
+        font-size: 20px;
+    }
+
+    .facts .f1 {
+        font-size: 10px;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-bottom: 15px;
+    }
+    .facts .f2 {
+        font-size: 10px;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-bottom: 15px;
+    }
+
+    .foods {
+        display: flex;
+        justify-content: center;
+        padding: 6px 16px;
+        border-width: 50px;
+    }
+
+    .yum {
+        width: 300px;
+        margin: 40px 6px;
+    }
+}

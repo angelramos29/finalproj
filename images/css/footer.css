@@ -1,0 +1,38 @@
+footer {
+    background-color: rgba(104, 14, 51, 0.562);
+    color: #fff;
+    padding: 11px;
+    text-align: center;
+}
+  
+footer p {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.factss {
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+@media (max-width: 412px) {
+    footer {
+        padding: 6px;
+        text-align: center;
+    }
+      
+    footer p {
+        text-align: center;
+        font-size: 7px;
+    }
+    
+    .factss {
+        text-align: center;
+        font-size: 6px;
+    } 
+}
